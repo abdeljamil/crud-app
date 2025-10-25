@@ -1,16 +1,16 @@
 {
-    "name": "crud-backend",
-    "version": "1.0.0", 
-    "scripts": {
-      "start": "node index.js", 
-      "test": "echo 'Add tests here'", 
-      "lint": "eslint ." 
-    },
-    "dependencies": {
-      "express": "^4.17.1", 
-      "pg": "^8.7.3" 
-    },
-    "devDependencies": {
-      "eslint": "^8.0.0" 
-    }
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.0"
   }
+}
